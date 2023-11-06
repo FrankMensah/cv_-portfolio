@@ -1,0 +1,101 @@
+body{
+  margin:0px;
+  text-align: center;
+  font-family: 'Merriweather', serif, 'Merriweather Sans', sans-serif;
+}
+
+.push-down{
+  margin-top: 7%;
+}
+
+.profile-pic{
+  padding: 5px;
+  width: 10%;
+  border: 10px dotted white;
+  border-radius: 50%;
+}
+
+.top-container{
+  background: linear-gradient(to top left, #A6B8E0, #EBF1FF);
+  height: 940px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-container h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 500%;
+  color: #1D2F4A;
+  margin: 10px 0;
+}
+
+.top-container h2{
+  font-weight: lighter;
+  font-size: 110%;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #1D2F4A;
+  margin-top: 0;
+}
+
+.underline-Pro{
+  text-decoration: underline;
+}
+
+.top-cloud img{
+  width: 25%;
+  position: absolute;
+  right: 6.25%;
+}
+
+.mid-cloud img{
+  width: 12%;
+  position: relative;
+  right: 30%;
+}
+
+.down-mountain{
+  right: 0;
+  left: 0;
+  position: absolute;
+  bottom: -5px;
+}
+.down-mountain img{
+  width: 100%;
+}
+
+/* ------------------------------------------- */
+
+.mid-container{
+  background-color: white;
+  height: 1015px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.Ui-Coding{
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+.rect {
+  background-color: #ddd1ff;
+  width: 40%;
+  margin: 0 auto;
+  height: 20%;
+  border-radius: 50px 50px 30px 30px;
+}
+
+
+
+.under-const p {
+  margin: 0;
+  color: white;
+  font-family: 'Agbalumo';
+  font-size: 500%;
+}
+
+.about p{
+  color: #7766d0;
+}
